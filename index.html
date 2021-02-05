@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="text-align: center;">FORM VALIDATION</h2>
+    <form name="RefForm" action="/" onsubmit="return formValidate" method="POST">
+    <p>Name : <input type="text" name="name"></p>
+    <label class="alert" id="name"></label>
+    <br>
+    <p>Address : <input type="text" name="address"></p>
+    <label class="alert" id="address"></label>
+    <br>
+    <p>Email : <input type="password" name="email"></p>
+    <label class="alert" id="email"></label>
+    <br>
+    <p>Confirm Password : <input type="password" name="password"></p>
+    <label class="alert" id="pwd"></label>
+    <br>
+    <p>Password : <input type="text" name="cpassword"></p>
+    <label class="alert" id="cpwd"></label>
+    <br>
+    <p>Phone : <input type="text" name="phone"></p>
+    <label class="alert" id="phone"></label>
+    <br>
+    <p><input type="submit" value="submit" name="submit"></p>
+</form>
+</body>
+</html>
